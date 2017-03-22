@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MYSegmentView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qjb-ni-l17" customClass="MYSegmentView" customModule="MYSegmentView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dqM-3P-ryE"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v88-Zo-MXh">
+                                <rect key="frame" x="16" y="28" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="E33-9p-qYj"/>
+                                    <constraint firstAttribute="height" constant="21" id="wUR-aw-DVp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBk-ez-RQB">
+                                <rect key="frame" x="16" y="117" width="80" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Y9Y-nO-o7o"/>
+                                    <constraint firstAttribute="width" constant="80" id="f5t-s9-EhW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMl-vf-a8M" customClass="MYSegmentView" customModule="MYSegmentView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="146" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7OG-HZ-886"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qjb-ni-l17" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="7hz-7f-gil"/>
+                            <constraint firstItem="IBk-ez-RQB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="8dS-lD-BcR"/>
+                            <constraint firstItem="kMl-vf-a8M" firstAttribute="top" secondItem="IBk-ez-RQB" secondAttribute="bottom" constant="8" id="PcI-2I-mlc"/>
+                            <constraint firstItem="v88-Zo-MXh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="cd4-dr-Y5g"/>
+                            <constraint firstItem="qjb-ni-l17" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dXq-TY-sdp"/>
+                            <constraint firstAttribute="trailing" secondItem="qjb-ni-l17" secondAttribute="trailing" id="m2i-QW-QXg"/>
+                            <constraint firstItem="v88-Zo-MXh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="nIS-VX-vuK"/>
+                            <constraint firstItem="IBk-ez-RQB" firstAttribute="top" secondItem="qjb-ni-l17" secondAttribute="bottom" constant="17" id="qHO-Ow-Lyl"/>
+                            <constraint firstAttribute="trailing" secondItem="kMl-vf-a8M" secondAttribute="trailing" id="qhU-0c-4BO"/>
+                            <constraint firstItem="kMl-vf-a8M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qop-s8-ydl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arrowSegmentView" destination="kMl-vf-a8M" id="TVw-MQ-ceI"/>
+                        <outlet property="segmentView" destination="qjb-ni-l17" id="grQ-Jf-965"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
