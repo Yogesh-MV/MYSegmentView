@@ -22,44 +22,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qjb-ni-l17" customClass="MYSegmentView" customModule="MYSegmentView" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="150" width="375" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="dqM-3P-ryE"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v88-Zo-MXh">
-                                <rect key="frame" x="16" y="28" width="42" height="21"/>
+                                <rect key="frame" x="16" y="130" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="42" id="E33-9p-qYj"/>
                                     <constraint firstAttribute="height" constant="21" id="wUR-aw-DVp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBk-ez-RQB">
-                                <rect key="frame" x="16" y="117" width="80" height="21"/>
+                                <rect key="frame" x="16" y="217" width="80" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Y9Y-nO-o7o"/>
                                     <constraint firstAttribute="width" constant="80" id="f5t-s9-EhW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMl-vf-a8M" customClass="MYSegmentView" customModule="MYSegmentView" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="146" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="246" width="375" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="7OG-HZ-886"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.69411764705882351" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="qjb-ni-l17" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="7hz-7f-gil"/>
+                            <constraint firstItem="qjb-ni-l17" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="130" id="7hz-7f-gil"/>
                             <constraint firstItem="IBk-ez-RQB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="8dS-lD-BcR"/>
                             <constraint firstItem="kMl-vf-a8M" firstAttribute="top" secondItem="IBk-ez-RQB" secondAttribute="bottom" constant="8" id="PcI-2I-mlc"/>
-                            <constraint firstItem="v88-Zo-MXh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="cd4-dr-Y5g"/>
+                            <constraint firstItem="v88-Zo-MXh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="cd4-dr-Y5g"/>
                             <constraint firstItem="qjb-ni-l17" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dXq-TY-sdp"/>
                             <constraint firstAttribute="trailing" secondItem="qjb-ni-l17" secondAttribute="trailing" id="m2i-QW-QXg"/>
                             <constraint firstItem="v88-Zo-MXh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="nIS-VX-vuK"/>

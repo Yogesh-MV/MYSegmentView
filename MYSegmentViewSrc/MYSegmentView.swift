@@ -130,6 +130,7 @@ class MYSegmentView: UIView {
                 lineView.image = arrowImage
                 sepratorLine(segmentButton: segmentButton)
                 lineView.backgroundColor = UIColor.clear
+                segmentButton.backgroundColor = normalBGColor
             } else {
                 lineView.backgroundColor = selectionLineColor
             }
